@@ -1,12 +1,12 @@
 import "./App.css";
-// import Slider from "./components/Slider";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 const App = () => {
   return (
     <>
-      <Home />
-      {/* <Slider /> */}
+      {/* <Home /> */}
+      <Login />
     </>
   );
 };
