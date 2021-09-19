@@ -1,6 +1,8 @@
 import Badge from "@mui/material/Badge";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+// import { Badge } from "@material-ui/core";
+// import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
@@ -40,6 +42,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
+  outline: none;
   ${mobile({ width: "50px" })}
 `;
 
@@ -51,6 +54,7 @@ const Center = styled.div`
 const Logo = styled.h1`
   font-weight: bold;
   ${mobile({ fontSize: "24px" })}
+  margin: 0;
 `;
 const Right = styled.div`
   flex: 1;
